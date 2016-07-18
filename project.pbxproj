@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		337EAF501CDB6E0B00252E33 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF4F1CDB6E0B00252E33 /* main.cpp */; };
+		337EAF5B1CDB6EB000252E33 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337EAF5A1CDB6EB000252E33 /* OpenGL.framework */; };
+		337EAF5D1CDB6EB400252E33 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337EAF5C1CDB6EB400252E33 /* Cocoa.framework */; };
+		337EAF5F1CDB6EB700252E33 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337EAF5E1CDB6EB700252E33 /* GLUT.framework */; };
+		337EAF631CDB72CD00252E33 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF601CDB72CD00252E33 /* Mesh.cpp */; };
+		337EAF641CDB72CD00252E33 /* stb_image.c in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF621CDB72CD00252E33 /* stb_image.c */; };
+		337EAF6A1CDB736F00252E33 /* meshpack in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF691CDB734200252E33 /* meshpack */; };
+		337EAF6B1CDB736F00252E33 /* Mesh.h in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF611CDB72CD00252E33 /* Mesh.h */; };
+		337EAF6C1CDB736F00252E33 /* tree.png in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF651CDB72FC00252E33 /* tree.png */; };
+		337EAF6D1CDB736F00252E33 /* tree.obj in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF661CDB72FC00252E33 /* tree.obj */; };
+		337EAF6E1CDB736F00252E33 /* tigger.obj in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF671CDB72FC00252E33 /* tigger.obj */; };
+		337EAF6F1CDB736F00252E33 /* tigger.png in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF681CDB72FC00252E33 /* tigger.png */; };
+		337EAF701CDB736F00252E33 /* float2.h in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF561CDB6E6F00252E33 /* float2.h */; };
+		337EAF711CDB736F00252E33 /* float3.h in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF571CDB6E6F00252E33 /* float3.h */; };
+		337EAF721CDB736F00252E33 /* float4.h in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF581CDB6E6F00252E33 /* float4.h */; };
+		337EAF731CDB736F00252E33 /* float4x4.h in Sources */ = {isa = PBXBuildFile; fileRef = 337EAF591CDB6E6F00252E33 /* float4x4.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		337EAF4A1CDB6E0900252E33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		337EAF4C1CDB6E0A00252E33 /* 3DGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 3DGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		337EAF4F1CDB6E0B00252E33 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		337EAF561CDB6E6F00252E33 /* float2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float2.h; sourceTree = "<group>"; };
+		337EAF571CDB6E6F00252E33 /* float3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float3.h; sourceTree = "<group>"; };
+		337EAF581CDB6E6F00252E33 /* float4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float4.h; sourceTree = "<group>"; };
+		337EAF591CDB6E6F00252E33 /* float4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float4x4.h; sourceTree = "<group>"; };
+		337EAF5A1CDB6EB000252E33 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		337EAF5C1CDB6EB400252E33 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		337EAF5E1CDB6EB700252E33 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		337EAF601CDB72CD00252E33 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		337EAF611CDB72CD00252E33 /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		337EAF621CDB72CD00252E33 /* stb_image.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image.c; sourceTree = "<group>"; };
+		337EAF651CDB72FC00252E33 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		337EAF661CDB72FC00252E33 /* tree.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tree.obj; sourceTree = "<group>"; };
+		337EAF671CDB72FC00252E33 /* tigger.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tigger.obj; sourceTree = "<group>"; };
+		337EAF681CDB72FC00252E33 /* tigger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tigger.png; sourceTree = "<group>"; };
+		337EAF691CDB734200252E33 /* meshpack */ = {isa = PBXFileReference; lastKnownFileType = folder; path = meshpack; sourceTree = "<group>"; };
+		337EAF761CF0CAB100252E33 /* FEATURE_LIST.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = FEATURE_LIST.rtf; sourceTree = "<group>"; };
+		337EAF771CF0CE3F00252E33 /* chassis.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = chassis.obj; sourceTree = "<group>"; };
+		337EAF781CF0CE3F00252E33 /* chevy.obj */ = {isa = PBXFileReference; lastKnownFileType = text; path = chevy.obj; sourceTree = "<group>"; };
+		337EAF791CF0CE3F00252E33 /* chevy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chevy.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		337EAF491CDB6E0900252E33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337EAF5F1CDB6EB700252E33 /* GLUT.framework in Frameworks */,
+				337EAF5D1CDB6EB400252E33 /* Cocoa.framework in Frameworks */,
+				337EAF5B1CDB6EB000252E33 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337EAF431CDB6E0700252E33 = {
+			isa = PBXGroup;
+			children = (
+				337EAF5E1CDB6EB700252E33 /* GLUT.framework */,
+				337EAF5C1CDB6EB400252E33 /* Cocoa.framework */,
+				337EAF5A1CDB6EB000252E33 /* OpenGL.framework */,
+				337EAF4E1CDB6E0A00252E33 /* 3DGame */,
+				337EAF4D1CDB6E0A00252E33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		337EAF4D1CDB6E0A00252E33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337EAF4C1CDB6E0A00252E33 /* 3DGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337EAF4E1CDB6E0A00252E33 /* 3DGame */ = {
+			isa = PBXGroup;
+			children = (
+				337EAF771CF0CE3F00252E33 /* chassis.obj */,
+				337EAF781CF0CE3F00252E33 /* chevy.obj */,
+				337EAF791CF0CE3F00252E33 /* chevy.png */,
+				337EAF761CF0CAB100252E33 /* FEATURE_LIST.rtf */,
+				337EAF691CDB734200252E33 /* meshpack */,
+				337EAF4F1CDB6E0B00252E33 /* main.cpp */,
+				337EAF621CDB72CD00252E33 /* stb_image.c */,
+				337EAF741CDB77D000252E33 /* idk */,
+				337EAF561CDB6E6F00252E33 /* float2.h */,
+				337EAF571CDB6E6F00252E33 /* float3.h */,
+				337EAF581CDB6E6F00252E33 /* float4.h */,
+				337EAF591CDB6E6F00252E33 /* float4x4.h */,
+			);
+			path = 3DGame;
+			sourceTree = "<group>";
+		};
+		337EAF741CDB77D000252E33 /* idk */ = {
+			isa = PBXGroup;
+			children = (
+				337EAF601CDB72CD00252E33 /* Mesh.cpp */,
+				337EAF611CDB72CD00252E33 /* Mesh.h */,
+				337EAF651CDB72FC00252E33 /* tree.png */,
+				337EAF661CDB72FC00252E33 /* tree.obj */,
+				337EAF671CDB72FC00252E33 /* tigger.obj */,
+				337EAF681CDB72FC00252E33 /* tigger.png */,
+			);
+			name = idk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		337EAF4B1CDB6E0900252E33 /* 3DGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337EAF531CDB6E0B00252E33 /* Build configuration list for PBXNativeTarget "3DGame" */;
+			buildPhases = (
+				337EAF481CDB6E0900252E33 /* Sources */,
+				337EAF491CDB6E0900252E33 /* Frameworks */,
+				337EAF4A1CDB6E0900252E33 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DGame;
+			productName = 3DGame;
+			productReference = 337EAF4C1CDB6E0A00252E33 /* 3DGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		337EAF441CDB6E0800252E33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Weston Jackson";
+				TargetAttributes = {
+					337EAF4B1CDB6E0900252E33 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 337EAF471CDB6E0800252E33 /* Build configuration list for PBXProject "3DGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 337EAF431CDB6E0700252E33;
+			productRefGroup = 337EAF4D1CDB6E0A00252E33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				337EAF4B1CDB6E0900252E33 /* 3DGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		337EAF481CDB6E0900252E33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337EAF6A1CDB736F00252E33 /* meshpack in Sources */,
+				337EAF6B1CDB736F00252E33 /* Mesh.h in Sources */,
+				337EAF6C1CDB736F00252E33 /* tree.png in Sources */,
+				337EAF6D1CDB736F00252E33 /* tree.obj in Sources */,
+				337EAF6E1CDB736F00252E33 /* tigger.obj in Sources */,
+				337EAF6F1CDB736F00252E33 /* tigger.png in Sources */,
+				337EAF701CDB736F00252E33 /* float2.h in Sources */,
+				337EAF711CDB736F00252E33 /* float3.h in Sources */,
+				337EAF721CDB736F00252E33 /* float4.h in Sources */,
+				337EAF731CDB736F00252E33 /* float4x4.h in Sources */,
+				337EAF631CDB72CD00252E33 /* Mesh.cpp in Sources */,
+				337EAF501CDB6E0B00252E33 /* main.cpp in Sources */,
+				337EAF641CDB72CD00252E33 /* stb_image.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		337EAF511CDB6E0B00252E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		337EAF521CDB6E0B00252E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		337EAF541CDB6E0B00252E33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		337EAF551CDB6E0B00252E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		337EAF471CDB6E0800252E33 /* Build configuration list for PBXProject "3DGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337EAF511CDB6E0B00252E33 /* Debug */,
+				337EAF521CDB6E0B00252E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337EAF531CDB6E0B00252E33 /* Build configuration list for PBXNativeTarget "3DGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337EAF541CDB6E0B00252E33 /* Debug */,
+				337EAF551CDB6E0B00252E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 337EAF441CDB6E0800252E33 /* Project object */;
+}
